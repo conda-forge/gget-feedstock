@@ -1,14 +1,14 @@
 context:
   name: gget
-  version: "0.30.5"
+  version: "0.30.6"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/gget-${{ version }}.tar.gz
-  sha256: 702b464464073334135a116d35c3034943ab404014db6eceb362bd0b934bdc24
+  url: https://files.pythonhosted.org/packages/de/47/92871c1103dd88a4189efa90deb8290dd6180cbfb74d01c423930d3553ad/gget-${{ version }}.tar.gz
+  sha256: 94d44fa131cd54ca88ee95a934e3ce2ca3db14fbcb7cdb1293906949656d239a
 
 build:
   number: 0
